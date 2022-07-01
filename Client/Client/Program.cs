@@ -14,16 +14,17 @@ namespace Client
 
         static void Main(string[] args)
         {
-            //---data to send to the server---
-            string textToSend = DateTime.Now.ToString();
-            //---create a TCPClient object at the IP and port no.---
+            // Get data from 3D matching
+            string textToSend = "{x: 2, y: 3}"+ " " + DateTime.Now.ToString();
+
             TcpClient client = new TcpClient(SERVER_IP, PORT_NO);
+            Console.WriteLine("Client Start...");
             NetworkStream nwStream = client.GetStream();
             byte[] bytesToSend = ASCIIEncoding.ASCII.GetBytes(textToSend);
-            //---send the text---
-            Console.WriteLine("Sending : " + "This Position");
+            // Sending to Server
+            Console.WriteLine("Sending to Server: " + textToSend);
             nwStream.Write(bytesToSend, 0, bytesToSend.Length);
-            //---read back the text---
+            // Received from Server
             byte[] bytesToRead = new byte[client.ReceiveBufferSize];
             int bytesRead = nwStream.Read(bytesToRead, 0, client.ReceiveBufferSize);
             Console.WriteLine("Received : " + Encoding.ASCII.GetString(bytesToRead, 0, bytesRead));
