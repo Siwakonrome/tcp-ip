@@ -1,9 +1,0 @@
-C:\tcpip\tcpip\bin\Debug\tcpip.exe
-C:\tcpip\tcpip\bin\Debug\tcpip.pdb
-C:\tcpip\tcpip\obj\Debug\tcpip.csprojAssemblyReference.cache
-C:\tcpip\tcpip\obj\Debug\tcpip.Properties.Resources.resources
-C:\tcpip\tcpip\obj\Debug\tcpip.csproj.GenerateResource.cache
-C:\tcpip\tcpip\obj\Debug\tcpip.csproj.CoreCompileInputs.cache
-C:\tcpip\tcpip\obj\Debug\tcpip.exe
-C:\tcpip\tcpip\obj\Debug\tcpip.pdb
-C:\tcpip\tcpip\obj\Debug\tcpip.Form1.resources
