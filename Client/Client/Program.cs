@@ -10,7 +10,7 @@ namespace Client
     {
         // ipconfig
         const int PORT_NO = 80;
-        const string SERVER_IP = "10.61.5.25";
+        const string SERVER_IP = "192.168.101.129";
 
         static void Main(string[] args)
         {
