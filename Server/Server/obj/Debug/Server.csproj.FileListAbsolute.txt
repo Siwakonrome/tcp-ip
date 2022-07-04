@@ -10,3 +10,9 @@ C:\WorkSpace\tcp-ip\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
 C:\WorkSpace\tcp-ip\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 C:\WorkSpace\tcp-ip\Server\Server\obj\Debug\Server.exe
 C:\WorkSpace\tcp-ip\Server\Server\obj\Debug\Server.pdb
+C:\FiboWorkSpace\tcp-ip\Server\Server\bin\Debug\Server.exe
+C:\FiboWorkSpace\tcp-ip\Server\Server\bin\Debug\Server.pdb
+C:\FiboWorkSpace\tcp-ip\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\FiboWorkSpace\tcp-ip\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\FiboWorkSpace\tcp-ip\Server\Server\obj\Debug\Server.exe
+C:\FiboWorkSpace\tcp-ip\Server\Server\obj\Debug\Server.pdb
